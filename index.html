@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+<div class="main">
+    <div class="credits">Image by <a href="https://unsplash.com/@j_mk18">Jon</a> on <a href="https://unsplash.com/"> Unsplash</a></div>
+    <div class="banner"><img src="./images/jon-r8AFUpRp0J0-unsplash.jpg" class="banner">
+    </div>
+    <div class="bannerContent">
+        <div class="logo"><img src="./images/logo.png"></div>
+        <div class="logoText"><p><h1>Wild GO</h1></p></div>
+    </div>
+    <div class="formArea">
+        <div class="widthSetter">
+        <div class="textImp">This service involves only a form application and doesn't have a backend nor is it intended to. Though you can still <i>Sign Up</i> and check our client side validation. Thank You! </div>
+        <div class="textImpSlant"><i>We know you want to</i></div>
+        <div class="grayText">Let's do this!</div>
+        <div>
+            <form>
+                <fieldset>
+                    <div class="part1">
+                    <label for="fName">First Name</label>
+                    <input type="text" class="textBox" name="fName" required>
+                    <label for="lName">Last Name</label>
+                    <input type="text" class="textBox" name="lName" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" class="textBox" name="email" required>
+                    </div>
+                    
+                    <div class="part2">
+                    <label for="pNumber">Phone Number</label>
+                    <input type="number" class="textBox" name="pNumber"  pattern="^\d{10}$"required>
+                    <label for="pwd">Password</label>
+                    <input type="password" class="textBox" name="pwd" required>
+                    <label for="cPwd">Confirm Password</label>
+                    <input type="password" class="textBox" name="cPwd" required>
+                    </div>
+
+                </fieldset>
+            
+                <input type="submit" value="Create Account" class="submit">
+                
+            </form>
+            
+        </div>
+        <div class="login">Have an account already? <a href="">Log in</a> here</div>
+        
+       </div>
+</div>
+</div>
+    
+</body>
+</html>

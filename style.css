@@ -1,0 +1,129 @@
+.main{
+display: flex;
+}
+.banner{
+    width:37vw;
+    height:98vh;  
+    display: flex;
+    
+}
+.formArea{
+    width:63vw;
+    height: 98vh;
+}
+.bannerContent{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    height: 10vh;
+    width: 37vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+}
+.formArea{
+    display: flex;
+    flex-direction: column;
+}
+.textImp{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: 'Ubuntu Mono', monospace;
+font-size: x-large;
+}
+.textImpSlant{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: x-large;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.grayText{
+    font-family: 'Ubuntu Mono', monospace;
+    opacity: 85%;
+    font-size: x-large;
+    margin-top: 40px;
+    margin-left: 50px;
+    color:#7162bd;
+}
+.widthSetter{
+    width:50vw;
+}
+fieldset{
+    display: flex;    
+    margin-top:50px;
+    width: 61vw;
+    height: 25vh;
+    box-shadow:0 0 5px #7162bd ;
+    
+}
+.part1{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+}
+.part2{
+   margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold ;
+    opacity: 90%;
+}
+input{
+padding-bottom: 10px;
+margin-bottom: 10px;
+font-size: x-large;
+}
+.textBox{
+    width:250px;  
+    border-radius: 7px; 
+}
+input[type="submit"]{
+    margin:50px;
+    width: 300px;
+    height:60px;
+    border:1px solid;
+    border-radius: 10px;
+}
+.login{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: large;
+    margin-left: 50px;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.submit{
+    background-color:#7162bd;
+    color:white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.textBox :focus{
+    border:3px solid #7162bd;
+}
+a{
+    color:#7162bd;
+    text-decoration: none;
+}
+input:focus{
+    border-color: purple;
+    box-shadow: 0 0 10px purple;
+}
+.credits{
+    position :absolute;
+    bottom:30px;
+    left: 280px;
+    color: white;
+    font-size: large;
+    
+}
+
+
