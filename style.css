@@ -3,13 +3,13 @@ display: flex;
 }
 .banner{
     width:37vw;
-    height:98vh;  
+    height:96vh;  
     display: flex;
     
 }
 .formArea{
-    width:63vw;
-    height: 98vh;
+    width: 61vw;
+    height: 96vh;
 }
 .bannerContent{
     position: absolute;
@@ -84,7 +84,7 @@ font-size: x-large;
     border-radius: 7px; 
 }
 input[type="submit"]{
-    margin:50px;
+    margin:30px;
     width: 300px;
     height:60px;
     border:1px solid;
@@ -94,6 +94,7 @@ input[type="submit"]{
     font-family: 'Ubuntu Mono', monospace;
     font-size: large;
     margin-left: 50px;
+    
     
 }
 input::-webkit-outer-spin-button,
