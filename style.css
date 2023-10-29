@@ -53,6 +53,7 @@ font-size: large;
 }
 fieldset{
     display: flex;    
+    flex:1.5;
     margin-top:50px;
     width: 61vw;
     height: 35vh;
